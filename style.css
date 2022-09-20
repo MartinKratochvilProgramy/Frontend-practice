@@ -6,17 +6,19 @@ body{
     padding: 0;
 }
 
-/* NAVBAR */
-.navbar {
+/* header */
+.header {
     width: 100%;
     background-color: white;
     position: fixed;
+    top: 0; 
     display: flex;
     justify-content: space-around;
     border-bottom: solid 3px black;
+    transition: top 0.3s;
 }
 
-.navbar__heading {
+.header__heading {
     color: rgb(62, 62, 62);
     padding: 0;
     margin: 18px;
@@ -26,28 +28,28 @@ body{
     font-size: 36px;
 }
 
-.navbar__heading:hover {
+.header__heading:hover {
     color: black;
     text-decoration: underline;
 }
 
-.navbar__menu {
+.header__menu {
     display: flex;
     justify-items: center;
     align-items: center;
     
 }
 
-.navbar__menu__item {
+.header__menu__item {
     color: rgb(62, 62, 62);
     font-size: 22px;
     margin-left: 24px;
     font-family: 'Archivo';
-    font-weight: bold;
+    font-weight: 600;
     text-decoration: none;
 }
 
-.navbar__menu__item:hover {
+.header__menu__item:hover {
     color: black;
     text-decoration: underline;
 }
@@ -58,7 +60,7 @@ body{
     border-bottom: solid 3px black;
     display: flex;
     flex-direction: row;
-    padding: 24px;
+    padding: 100px;
     padding-top: 60px;
 }
 
@@ -101,7 +103,7 @@ body{
     background-color: white;
     font-family: 'Archivo';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 22px;
     padding: 18px 24px 18px 24px;
     border: solid;
     border-color: black;
@@ -120,7 +122,7 @@ body{
     background-color: transparent;
     font-family: 'Archivo';
     font-weight: 700;
-    font-size: 16px;
+    font-size: 22px;
     padding: 18px 24px 18px 24px;
     border: solid;
     border-color: black;
@@ -133,4 +135,133 @@ body{
 .become__content__buttons-beige:hover {
     color: white;
     background: black;
+}
+
+.become__image__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.become__image__container-image {
+    width: 1000px;
+}
+
+/* INSPIRE */
+.inspire {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.inspire__heading-top {
+    font-family: "DM Serif Display";
+    line-height: 80px;
+    font-size: 50px;
+    font-weight: 600;
+    max-width: 50%; 
+    text-align: center;
+}
+
+.inspire__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+    max-width: 60%;
+}
+
+.inspire__idea__container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 60px;
+    border-radius: 15px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.inspire__idea__container:hover {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transform: translate(0, -2px);
+}
+
+.inspire__idea__container__image {
+    width: 96px;
+}
+
+.inspire__idea__container__text {
+    font-family: 'Archivo';
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    margin-left: 62px;
+}
+
+.inspire__heading-bottom {
+    font-family: "DM Serif Display";
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    max-width: 35%;   
+}
+
+.inspire__link {
+    font-family: 'Archivo';
+    color: black;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 18px 24px 18px 24px;
+    border: solid;
+    border-color: black;
+    border-width: 2.5px;
+    transition: color 0.2s ease 0s;
+}
+
+.inspire__link:hover {
+    color: white;
+    background: black;
+}
+
+/* FOOTER */
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    padding: 48px;
+}
+
+.footer__copyright {
+    font-family: 'Archivo';
+    font-size: 20px;
+    color: white;
+}
+
+.footer__menu {
+    display: flex;
+    flex-direction: row;
+    font-weight: 600;
+}
+
+.footer__menu__item {
+    font-family: 'Archivo';
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 40px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.footer__menu__item:hover {
+    text-decoration: underline;
 }
