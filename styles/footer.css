@@ -10,7 +10,7 @@
 
 .footer__copyright {
     font-family: 'Archivo';
-    font-size: 20px;
+    font-size: 18px;
     color: white;
 }
 
@@ -23,7 +23,7 @@
 .footer__menu__item {
     font-family: 'Archivo';
     color: white;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-decoration: none;
     margin-top: 40px;

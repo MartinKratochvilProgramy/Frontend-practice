@@ -1,7 +1,7 @@
 /* BECOME */
 .become {
     background: #faebd7;
-    border-bottom: solid 3px black;
+    border-bottom: solid 2px black;
     display: flex;
     flex-direction: row;
     padding: 100px;
@@ -13,22 +13,22 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-    margin: 100px;
-    margin-top: 140px;
+    padding: 104px;
+    margin-top: 60px;
 }
 
 .become__content__header {
     font-family: "DM Serif Display";
     font-weight: bold;
-    font-size: 70px;
-    line-height: 80px;
+    font-size: 50px;
+    line-height: 70px;
     text-align: left;
     margin-bottom: 20px;
 }
 
 .become__content__paragraph {
     font-family: 'Archivo';
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 350;
     line-height: 34.5px;
     text-align: left;
@@ -47,8 +47,8 @@
     background-color: white;
     font-family: 'Archivo';
     font-weight: 700;
-    font-size: 22px;
-    padding: 18px 24px 18px 24px;
+    font-size: 18px;
+    padding: 14px 20px 14px 20px;
     border: solid;
     border-color: black;
     border-width: 2.5px;
@@ -66,8 +66,8 @@
     background-color: transparent;
     font-family: 'Archivo';
     font-weight: 700;
-    font-size: 22px;
-    padding: 18px 24px 18px 24px;
+    font-size: 18px;
+    padding: 14px 20px 14px 20px;
     border: solid;
     border-color: black;
     border-width: 2.5px;
@@ -89,7 +89,7 @@
 }
 
 .become__image__container-image {
-    width: 1000px;
+    width: 980px;
 }
 
 @media screen and (max-width: 1150px) {
