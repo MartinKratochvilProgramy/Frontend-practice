@@ -79,6 +79,20 @@
     background: black;
 }
 
+@media screen and (max-width: 1450px) {
+    .inspire {
+        padding: 10px;
+    }
+    .inspire__heading-top {
+        line-height: 60px;
+        font-size: 40px;
+        max-width: 65%;
+    }
+    .inspire__container {
+        max-width: 80%;
+    }
+}
+
 @media screen and (max-width: 950px) {
     .inspire {
         padding: 10px;
@@ -91,11 +105,6 @@
     }
     .inspire__idea__container__text {
         margin-left: 20px;
-    }
-    .inspire__heading-top {
-        line-height: 60px;
-        font-size: 40px;
-        max-width: 100%;
     }
     .inspire__heading-bottom {
         max-width: 80%;

@@ -92,8 +92,20 @@
     width: 980px;
 }
 
-@media screen and (max-width: 1150px) {
+@media all and (max-width: 1250px) {
     .become__image__container-image {
         display: none;
+    }
+}
+
+@media all and (max-width: 1450px) {
+    .become {
+        padding: 20px;
+    }
+    .become__content {
+        padding: 10px;
+    }
+    .become__image__container-image {
+        width: 600px;
     }
 }
