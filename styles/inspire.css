@@ -79,7 +79,7 @@
     background: black;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1550px) {
     .inspire {
         padding: 10px;
     }
@@ -89,7 +89,13 @@
         max-width: 65%;
     }
     .inspire__container {
-        max-width: 80%;
+        max-width: 90%;
+    }
+    .inspire__idea__container {
+        padding: 40px;
+    }
+    .inspire__idea__container__text {
+        margin-left: 30px;
     }
 }
 
