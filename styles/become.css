@@ -86,14 +86,18 @@
     justify-content: center;
     align-items: center;
     margin-top: 80px;
+    max-width: 50%;
 }
 
 .become__image__container-image {
+    display: block;
     width: 980px;
 }
 
-@media all and (max-width: 1250px) {
-    .become__image__container-image {
+
+@media all and (min-width: 0px) and (max-width: 1250px) {
+    .become__image__container {
+        background-color: #faebd7;
         display: none;
     }
 }
