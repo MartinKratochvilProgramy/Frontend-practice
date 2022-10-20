@@ -5,7 +5,7 @@
     position: fixed;
     top: 0; 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: solid 2px black;
     transition: top 0.3s;
     z-index: 1;
@@ -28,6 +28,7 @@
 
 .header__menu {
     display: flex;
+    margin-right: 20px;
     justify-items: center;
     align-items: center;
     
